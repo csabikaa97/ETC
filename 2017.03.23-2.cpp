@@ -145,4 +145,5 @@ int main()
 			cb=befogo2*(atfogo/(befogo1+befogo2));
 		}
 	}
+	return 0;
 }
