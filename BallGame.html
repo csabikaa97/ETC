@@ -18,7 +18,7 @@
 		var ballminus=0;
 		var keycodecustom;
 		var counter=0;
-		var LOL=1;
+		var LOL=0.01;
 		var counter2=LOL;
 		window.addEventListener('keydown', function(event) {
 			console.log(event.keyCode);
@@ -66,8 +66,6 @@
 					}
 					break;
 				*/
-				case 83: clearInterval(loop);
-					break;
 				case 68: x=x+8;	keycodecustom=0;
 					if(x>mapx-r)
 					{
@@ -161,9 +159,9 @@
 			text2.fillText("Labda sugara: "+ballr,10,60);
 		}
 	</script>
-	<title>Joel meleg!</title>
+	<title>Ball game!</title>
 	<style type="text/css">
-		canvas { background-color: red;
+		canvas { background-color: gray;
 				opacity: 0.5;
 				}
 	</style>
